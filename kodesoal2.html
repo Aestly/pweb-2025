@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Pertemuan 4</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            padding: 20px;
+            background-color: #f4f4f4;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid black;
+            flex-wrap: wrap;
+        }
+        img {
+            margin-right: 100px;
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .header-content {
+            display: flex;
+            align-items: center;
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            min-width: 200px;
+        }
+        
+        .header-title {
+            margin-left: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .search-filter {
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+            padding-right: 10px;
+            flex-wrap: wrap;
+            background-color: #f4f4f4; 
+            padding: 10px;
+            border-radius: 5px;
+            min-width: 200px;
+        }
+        .search-filter > * {
+            margin-right: 10px; 
+            margin-bottom: 10px; 
+        }
+        input[type="text"] {
+            padding: 5px;
+            width: 100%;
+            max-width: 100px; 
+        }
+        select {
+            padding: 5px;
+            width: 100%; 
+            max-width: 50px; 
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="cekdong.png" alt="Top Image">
+        </div>
+    </header>
+    <div class="search-filter">
+        <div class="header-title">Equipment</div>
+        <select>
+            <option value="all">All</option>
+            <option value="category1">Category 1</option>
+            <option value="category2">Category 2</option>
+        </select>
+        <input type="text" placeholder="Search...">   
+    </div>
+    <p>All List of goods, please tap the goods for start booking  <p>
+    <main>
+    </main>
+</body>
+</html>
